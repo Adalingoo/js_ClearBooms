@@ -1,0 +1,99 @@
+#mine {
+    margin: 10px auto;
+}
+.level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.level button {
+    padding: 5px 15px;
+    background: #02a4ad;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+.level button.active {
+    background: #00abff;
+}
+
+/* 表格 */
+table {
+    background: #929196;
+    margin: 0 auto;
+    border-spacing: 1px;/* border-spacing 属性设置相邻单元格的边框间的距离（仅用于“边框分离”模式）:水平 垂直 */
+
+}
+td {
+    padding: 0;/* 去掉默认padding */
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;/* 浮雕效果 */
+
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
+.zero {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+}
+.one {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: blue;
+}
+.two {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: red;
+}
+.three {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: orange;
+}
+.four {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: green;
+}
+.five {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(0, 255, 234);
+}
+.six {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(255, 0, 144);
+}
+.seven {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(47, 92, 7);
+}
+.eight {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: purple;
+}
+/* 雷 */
+.mine {
+    background: #d9d9d9 url(../images/boom.png) no-repeat center;
+    background-size: cover;
+}
+/* 红旗 */
+.flag {
+    background: #ccc url(../images/flag.png)  no-repeat center;
+    background-size: cover;
+}
+
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+}
+
